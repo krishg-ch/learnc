@@ -48,7 +48,7 @@ The C language was brought into the market in 1972, but became popular in 1978.
 ## Setup a Development Envrionment 
 
 To write C programs in your local machine, you need:
-1. A C compiler --> 
+1. A C compiler --> GCC via Mingw-w64 or C/C++ Extension in Visual Studio Code
 2. An IDE --> [Visual Studio Code](https://code.visualstudio.com/)
 
 ## Structure of C program :

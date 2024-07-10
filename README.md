@@ -44,3 +44,28 @@ The C language was brought into the market in 1972, but became popular in 1978.
 * Can be executed in different platforms with minimal changes.
 * Support cross-platform programming, and can be compiled for a wide variety of computer platforms and operating systems.
 * Available on a wide range of platforms, from embedded microcontrollers to supercomputers.
+
+## Structure of C program :
+
+```C
+/* Documentation section
+   (About the code) */
+
+#include<stdio.h>        // Link section
+
+#define PI 3.14          // Definition section
+
+void add();              // Global declaration section
+int a = 2;
+
+int main()               // Main function
+{
+  // Body of the function
+  printf('This is a sample program');
+  return 0;              // return value from main function
+}
+
+void add()               // Subprogram section
+{
+}
+```

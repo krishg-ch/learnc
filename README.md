@@ -53,7 +53,7 @@ To write C programs in your local machine, you need:
 
 ## Structure of C program :
 
-https://github.com/krishg-ch/learnc/blob/070434677682e6ac47fb6bd059743dee91aeeba5/src/sample.c
+https://github.com/krishg-ch/learnc/blob/070434677682e6ac47fb6bd059743dee91aeeba5/src/sample.c?plain=1#L1-L21
 
 ```C
 /* Documentation section

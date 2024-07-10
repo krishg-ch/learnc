@@ -45,6 +45,12 @@ The C language was brought into the market in 1972, but became popular in 1978.
 * Support cross-platform programming, and can be compiled for a wide variety of computer platforms and operating systems.
 * Available on a wide range of platforms, from embedded microcontrollers to supercomputers.
 
+## Setup a Development Envrionment 
+
+To write C programs in your local machine, you need:
+1. A C compiler --> 
+2. An IDE --> [Visual Studio Code](https://code.visualstudio.com/)
+
 ## Structure of C program :
 
 ```C

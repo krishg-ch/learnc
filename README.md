@@ -55,25 +55,44 @@ To write C programs in your local machine, you need:
 
 https://github.com/krishg-ch/learnc/blob/070434677682e6ac47fb6bd059743dee91aeeba5/src/sample.c?plain=1#L1-L21
 
-```C
-/* Documentation section
-   (About the code) */
+### Header files in C:
+1. Header files are external libraries, by adding them we get additional functionalities that we can use in the code.
+2. #include is a preprocessor command that tells the C compiler to include a file.
+3. stdio.h stands for standard input output, which contains function definitions for input and output operations. Eg: printf(), scanf() etc.
 
-#include<stdio.h>        // Link section
+### Main function in C :
+1. Every C program may have more than one fuction, which must include a main() function. It is the first thing that is called when the program is executed.
+2. The int keyword in int main() {} indicates the return value of the main() function. So here it returns an integer number.
+3. When calling a function, arguments are passed in between parentheses (), and if the main function has no parameters, the keyword "void" is used.
+4. Anything inside the curly braces, {}, is considered the body of the function – here is where you include the code you want to write.
 
-#define PI 3.14          // Definition section
+### Comments in C :
+1. Comments are lines of text that get ignored by the compiler. Comments provide a way to document your code
+2. There are two types of commenting styles :
+   - Single line comments --> Anything after // in that line
+   - Multi line comments --> Anything in between /* and */
 
-void add();              // Global declaration section
-int a = 2;
+### printf() in C :
+1. printf() function is used when we want to display something.
+2. Text to be displayed is placed in between " " inside the paranthesis ().
+3. Every statement in C ends with semicolon (;). Think of this as a fullstop (.) in sentences.
 
-int main()               // Main function
-{
-  // Body of the function
-  printf('This is a sample program');
-  return 0;              // return value from main function
-}
+### escape sequences in C :
+1. An escape sequence is a combination of characters that represents a special character within a string.
+2. They consist of a backslash, \, also known as the escape character, followed by one or more additional characters.
+3. The escape sequence for a newline character is \n.
 
-void add()               // Subprogram section
-{
-}
-```
+### Compile and run your C program :
+The compilation of a C program consists of four steps: 
+1. Preprocessing phase :
+   - The preprocessor scans through the source code to find preprocessor directives, which are any lines that start with a # symbol, such as #include .
+   - Once the preprocessor finds these lines, it substitutes them all the code from the header file.
+2. Compilation phase :
+   - This is where the modified source code gets translated into the corresponding assembly code.
+   - If there are any errors, compilation will fail, and you will need to fix the errors to continue.
+3. Assembly phase :
+   - This is where the assembler converts the generated assembly code statements into machine code instructions.
+   - The output of this phase is an object file, which contains the machine code instructions.
+4. Linking phase :
+   - Linking is the process of combining the object file generated from the assembly phase with any necessary libraries to create the final executable binary file.
+

@@ -84,15 +84,27 @@ https://github.com/krishg-ch/learnc/blob/070434677682e6ac47fb6bd059743dee91aeeba
 
 ### Compile and run your C program :
 The compilation of a C program consists of four steps: 
-1. Preprocessing phase :
+1. **Preprocessing phase** :
    - The preprocessor scans through the source code to find preprocessor directives, which are any lines that start with a # symbol, such as #include .
    - Once the preprocessor finds these lines, it substitutes them all the code from the header file.
-2. Compilation phase :
+2. **Compilation phase** :
    - This is where the modified source code gets translated into the corresponding assembly code.
    - If there are any errors, compilation will fail, and you will need to fix the errors to continue.
-3. Assembly phase :
+3. **Assembly phase** :
    - This is where the assembler converts the generated assembly code statements into machine code instructions.
    - The output of this phase is an object file, which contains the machine code instructions.
-4. Linking phase :
+4. **Linking phase** :
    - Linking is the process of combining the object file generated from the assembly phase with any necessary libraries to create the final executable binary file.
 
+![img\compilationprocess](https://github.com/krishg-ch/learnc/assets/87570647/26b4f456-d3e6-43c2-8229-f82920debbb0)
+
+**To run the program** :
+* Inside the terminal, type this for compiling :
+  - gcc main.c
+* Compiler output gives 'a.out' file in the directory.
+* To run the file, type this :
+  - ./a.out   (./ represents the current directory and a.out is the file name)
+* To change the default exectubale name from a.out to different name, use this :
+  - gcc -o <executablename> <filename>.c
+ 
+## Variables and Datatypes

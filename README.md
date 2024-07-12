@@ -54,6 +54,29 @@ To write C programs in your local machine, you need:
 ## Structure of C program :
 
 https://github.com/krishg-ch/learnc/blob/070434677682e6ac47fb6bd059743dee91aeeba5/src/sample.c?plain=1#L1-L21
+```C
+ /* Documentation section 
+    (About the code) */ 
+  
+ #include<stdio.h>        // Link section 
+  
+ #define PI 3.14          // Definition section 
+  
+ void add();              // Global declaration section 
+ int a = 2; 
+  
+ int main()               // Main function 
+ { 
+   // Body of the function 
+   printf('This is a sample program'); 
+   return 0;              // return value from main function 
+ } 
+  
+ void add()               // Subprogram section 
+ { 
+   // Body of the subprogram 
+ } 
+```
 
 ### Header files in C:
 1. Header files are external libraries, by adding them we get additional functionalities that we can use in the code.
